@@ -1,2 +1,3 @@
 # javascript-pr
-Java project
+javascript projects
+
