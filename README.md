@@ -1,3 +1,3 @@
 # javascript-pr
-javascript projects
+javascript projects basics to advance
 
