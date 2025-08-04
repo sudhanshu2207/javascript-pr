@@ -1,0 +1,37 @@
+/* Add your CSS styles below */
+
+body {
+  background-color: #212121;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+nav{
+    background-color: beige;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#banner {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#clock {
+  font-size: 40px;
+  background-color: rgba(31, 105, 106, 0.779);
+  padding: 20px 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
