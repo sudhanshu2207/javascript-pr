@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(237, 238, 221);
+}
+
+h1{
+    color: rgb(6, 2, 2);
+    height: 5rem;
+    line-height: 5rem; /*for vertical center */   
+    margin-top: 2rem;
+}
+
+.choice{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /*image ko div wale container ke andar center mein laane ke liye*/
+    align-items: center;
+
+}
+
+.choice:hover{
+    
+    cursor: pointer;
+    animation: popup 400ms ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: #081b31;
+}
+
+@keyframes popup{
+    from{height: 160px; width: 160px;}
+    to{height: 150px; width: 150px;}
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover; /*for fit the image and see clear*/
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center; /*horizontal align*/
+    align-items: center;/*for vertical align*/
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   font-size: 3rem;
+   gap: 5rem;
+   margin-top: 3rem;
+
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    display: inline;  /*jitne part mein content hai utne part ko highlight karna chahte hai*/
+    padding: 1rem;
+}
